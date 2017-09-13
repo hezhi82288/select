@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: #303030;
+}
+body,html{
+    background: #f7f7f7;
+    min-width: 1330px;
+    width: auto;
+    height: auto;
+    clear: both;
+}
+input,option,select,textarea{
+    outline: none;
+    border: none;
+    background: none;
+}
+img{
+    border: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul,li{
+    list-style: none;
+}
+textarea{
+    resize: none;
+}
+
+
+/*************** 头部 ***************/
+.container{
+    width: 100%;
+    overflow: hidden;
+    background: #f7f7f7;
+}
+
+.header{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    height: 80px;
+    line-height: 80px;
+}
+.header .head{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header .head .logo{
+    float: left;
+    margin-left: 10%;
+    width: 177px;
+    height: 42px;
+    position: relative;
+    top: 10px;
+}
+.header .head .logo img{
+    width: 100%;
+}
+.header .head .login{
+    float: right;
+}
+.header .head .login li{
+    float: left;
+}
+.header .head .login li:first-child a:nth-of-type(2){
+    border-right: 1px solid #000;
+    padding-right: 20px;
+}
+.header .head .login li:nth-of-type(2) a:first-child{
+    padding-left: 20px;
+}
+.header .head .login li img{
+    position: relative;
+    top: 7px;
+    margin: 0 10px;
+}
+
+
+
+/************* 内容区头部导航 *******************/
+.main{
+    width: 100%;
+    padding: 35px 0;
+    overflow: hidden;
+}
+.main .content{
+    min-width: 1351px;
+    width: 71%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 0 85px 0;
+    overflow: hidden;
+}
+.main .content .top{
+    width: 100%;
+    height: 51px;
+    border-bottom: 2px solid #ececec;
+}
+.main .content .top ul{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.main .content .top ul li{
+    float: left;
+    width: 25%;
+    position: relative;
+    height: 100%;
+    color: #dadada;
+}
+.main .content .top ul li:before{
+    content: "";
+    position: absolute;
+    width: 270px;
+    height: 2px;
+    z-index: 2;
+}
+
+
+/************** 用户注册 *****************/
+.res{
+    width: 80%;
+    margin: 80px auto 0 auto;
+    min-width: 1080px;
+    overflow: hidden;
+}
+
+
+/************** footer *****************/
+.footer{
+    width: 100%;
+    padding: 5px 0;
+    background: #dadada;
+}
+.footer p{
+    color: #999999;
+}
+
+
+
+/********** 弹框 ***********/
+.layer{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.layer-t{
+    background: #f8f8fb;
+    width: 500px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 200px;
+    z-index: 99;
+    padding: 10px 0;
+    border: 1px solid #dfe3e9;
+    border-radius: 6px;
+}
+.hintTop{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dfe3e9;
+}
+.return{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.return p{
+    float: left;
+}
+.return img{
+    float: right;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.hintText{
+    width: 100%;
+    overflow: hidden;
+}
+.hintText p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hintA{
+    width: 330px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.hintText a{
+    display: block;
+    width: 150px;
+    padding: 10px 0;
+    background: #dadada;
+    float: left;
+    color: #fff;
+}
+.hintText a:first-child{
+    margin-right: 30px;
+}
+.hintText a:hover{
+    background: #1a9bea;
+}
